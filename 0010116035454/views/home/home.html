@@ -1,0 +1,26 @@
+<ion-view hide-back-button="true">
+    <ion-nav-buttons>
+        <a class="button icon ion-search" style="border: none"  ui-sref="search">搜索商品</a>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <a class="button button-clear icon ion-ios-cart-outline"></a>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-slide-box auto-play="true" slide-interval="2000" does-continue="true">
+            <ion-slide ng-repeat="item in slideImages">
+                <img ng-src="images/{{item}}" class="my-image">
+            </ion-slide>
+        </ion-slide-box>
+        <div class="row">
+            <div class="col">真心想要</div>
+            <div class="col">真心想要</div>
+            <div class="col">真心想要</div>
+        </div>
+        <div>
+            <a ng-repeat="product in products" ng-click="doShow(product.pId)" ui-sref="details">
+                <img ng-src="{{product.pImg}}">
+                <span>{{product.price}}</span>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,16 @@
+<ion-view view-title="我的手机商城" data-ng-init="load()">
+    <ion-nav-buttons side="right">
+        <a class="button" href="#/tabs/home" id="enter-button">{{sec}}秒后进入</a>
+    </ion-nav-buttons>
+    <ion-slide-box auto-play="true" style="height: 100%" on-slide-changed="onSlideChanged()">
+        <ion-slide>
+            <img src="images/wel_1.jpg" class="my-image">
+        </ion-slide>
+        <ion-slide>
+            <img src="images/wel_2.jpg" class="my-image">
+        </ion-slide>
+        <ion-slide>
+            <img src="images/wel_3.jpg" class="my-image">
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>

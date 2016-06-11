@@ -1,0 +1,6 @@
+[
+  {"pId":"001","pName":"红米note","pImg":"images/hongmi3.jpg","price":"1124","desc":"红米的描述"},
+  {"pId":"002","pName":"红米note2","pImg":"images/hongmi3.jpg","price":"1134","desc":"红米2的描述"},
+  {"pId":"003","pName":"红米note3","pImg":"images/hongmi3.jpg","price":"1144","desc":"红米3的描述"},
+  {"pId":"004","pName":"红米note4","pImg":"images/hongmi3.jpg","price":"1154","desc":"红米4的描述"}
+]

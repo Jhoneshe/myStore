@@ -1,0 +1,50 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    background-color: #eee;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.item{
+    font-size: 14px;
+}
+.my-image{
+    display: block;
+    width: 100%;
+}
+#user-message{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+#pic-header{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+#user-name{
+    display: block;
+    margin-bottom: 10px;
+}
+.service-sub .icon{
+    font-size: 32px;
+}
+.service-sub span{
+    font-size: 12px;
+}
+
+.divider{
+    height: 10px;
+    background-color: #eee;
+}
